@@ -31,15 +31,25 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    
 }
 
-
+.heading{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem 1rem;
+    justify-content: center;
+    gap: 1rem;
+}
 .container{
     max-width: 1200px;
     margin: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 nav {
@@ -48,6 +58,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+}
+.logo{
+    font-size: 1.5rem;
 }
 
 .nav__logo{
